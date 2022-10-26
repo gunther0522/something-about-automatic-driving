@@ -6,4 +6,10 @@
 
 ## automatic_driving_simulation
 
-[automatic_driving_simulation_introduction.md](apollo_simulation/../automatic_driving_simulation/automatic_driving_simulation_introduction.md)主要介绍了自动驾驶仿真技术相关知识
+[automatic_driving_simulation_introduction.md](automatic_driving_simulation/automatic_driving_simulation_related_information/automatic_driving_simulation_introduction.md)主要介绍了自动驾驶仿真技术相关知识
+
+## automatic_testing
+
+
+
+## vehicle_side_communication

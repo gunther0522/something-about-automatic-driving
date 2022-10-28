@@ -10,55 +10,55 @@
 
 ```mermaid
 graph LR;
-A(something-about-automatic-driving) --> B(automatic_driving_simulation_test) -->
-B.A(automatic_driving_simulation_test_introduction)
+A(something-about-automatic-driving) --> B(auto_driving_sim_test) -->
+B.A(auto_driving_sim_test_introduction)
 
-B(automatic_driving_simulation_test) --> B.B(scene_collection) --> B.B.A(scene_collection_introduction)
+B(auto_driving_simulation_test) --> B.B(test_case) --> B.B.A(test_case_introduction)
 
-B(automatic_driving_simulation_test) --> B.C(simulation_tools) --> B.C.A(apollo_simulation)
+B.B(test_case) --> B.B.B(how_to_design_test_case)
 
-B.C(simulation_tools) --> B.C.B(carsim)
+B(auto_driving_sim_test) --> B.C(scene_lib) --> B.C.A(scene_lib_introduction)
 
-B.C(simulation_tools) --> B.C.C(lgsvl)
+B(auto_driving_sim_test) --> B.D(sim_tools) --> B.D.A(apollo_sim)
 
-B.C(simulation_tools) --> B.C.D(prescan)
+B.D(sim_tools) --> B.D.B(carsim)
 
-B.C(simulation_tools) --> B.C.E(vtd)
+B.D(sim_tools) --> B.D.C(lgsvl)
+
+B.D(sim_tools) --> B.D.D(prescan)
+
+B.D(sim_tools) --> B.D.E(vtd)
 
 
-A(something-about-automatic-driving) --> C(automatic_testing) --> C.A(automatic_testing_introduction)
+A(something-about-automatic-driving) --> C(auto_testing) --> C.A(auto_testing_introduction)
 
-C(automatic_testing) --> C.B(test_tools) --> C.B.A(apifox) --> C.B.A.A(apifox_introduction)
+C(auto_testing) --> C.B(test_tools) --> C.B.A(apifox) --> C.B.A.A(apifox_introduction)
 
 C.B(test_tools) --> C.B.B(ECU-test)--> C.B.B.A(ECU-test_introduction)
 
 
 
 A(something-about-automatic-driving) -->
-D(vehicle_side_communication) --> D.A(vehicle_side_communication_introduction)
+D(car_side_communication) --> D.A(car_side_communication_introduction)
 
-D(verhicle_side_communication) --> D.B(can) --> D.B.A(can_introduction)
+D(car_side_communication) --> D.B(can) --> D.B.A(can_introduction)
 
-D(verhicle_side_communication) --> D.C(ethernet_communication) --> D.C.A(ethernet_communication)
+D(car_side_communication) --> D.C(ethernet_communication) --> D.C.A(ethernet_communication)
 
 ```
 
-## 1. automatic_driving_simulation_test
+## 1. auto_driving_sim_test
 
-这部分记录了自动驾驶仿真测试相关的学习笔记。[automatic_driving_simulation_test_introduction](automatic_driving_simulation_test/automatic_driving_simulation_test_introduction.md)介绍了仿真测试相关的基础知识
-
-### 1.1 test_case
-
-### 1.1.2 simulation_tools
+这部分记录了自动驾驶仿真测试相关的学习笔记。[auto_driving_sim_test_intro](auto_driving_sim_test/auto_driving_sim_test_intro.md)介绍了仿真测试相关的基础知识
 
 
-## 2. automatic_testing
+## 2. auto_testing
 
-这部分记录了关于自动化测试的一些学习笔记，其中[automatic_testing_introduction](automatic_testing/automatic_testing_introduction.md)介绍了自动化测试相关知识。
+这部分记录了关于自动化测试的一些学习笔记，其中[auto_testing_intro](auto_testing/auto_testing_intro.md)介绍了自动化测试相关知识。
 
 ## 3. vehicle_side_communication
 
-这部分记录了车端通信的相关学习笔记，其中[vehicle_side_communication_introduction](vehicle_side_communication/vehicle_side_communication_introduction.md)介绍了车端通信相关知识。
+这部分记录了车端通信的相关学习笔记，其中[vehicle_side_communication_intro](vehicle_side_communication/../verhicle_side_communication/verhicle_side_communication_intro.md)介绍了车端通信相关知识。
 
 ****
 未完待续···

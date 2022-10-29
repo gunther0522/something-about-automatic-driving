@@ -49,7 +49,7 @@ D(car_side_communication) --> D.C(ethernet_communication) --> D.C.A(ethernet_com
 
 ## 1. auto_driving_sim_test
 
-这部分记录了自动驾驶仿真测试相关的学习笔记。[auto_driving_sim_test_intro](auto_driving_sim_test/auto_driving_sim_test_intro.md)介绍了仿真测试相关的基础知识
+这部分记录了自动驾驶仿真测试相关的学习笔记。[auto_driving_sim_test_intro](auto_driving_sim_test/auto_driving_sim_test_intro.md)介绍了仿真测试相关的基础知识。
 
 
 ## 2. auto_testing

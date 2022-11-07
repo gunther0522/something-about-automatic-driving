@@ -27,7 +27,7 @@
 
 #### 1.1.4 自动驾驶按系统组成分类
 
-- [感知系统仿真测试]()
+- [感知系统仿真测试](autopilot_sim_test/perception_system_sim_test.md)
 - [决策规划系统仿真测试]()
 - [控制执行系统仿真测试]()
 - [端到端仿真测试]()
@@ -54,6 +54,8 @@
 
 ### 1.4 仿真测试实践
 
+#### 1.4.1 apollo
+- [使用Apollo Studio制作仿真场景集](autopilot_sim_test/apollo/using_apollo_to_make_simulation_scene_sets.md)
 
 ****
 未完待续···

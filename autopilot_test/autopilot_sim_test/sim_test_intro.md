@@ -35,7 +35,7 @@
 
 # 4. 具体场景用例设计
 
-![](image/scen_use_case_design.png)
+![场景用例设计](image/scen_use_case_design.png)
 
 
 # 参考

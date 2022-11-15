@@ -29,10 +29,8 @@
 
 ## 2. 自动驾驶测试技术
 
-自动驾驶测试技术
-
-[自动驾驶测试](/autopilot_test/autopilot_test_intro.md)
-[自动驾驶仿真测试](/autopilot_test/autopilot_sim_test/sim_test_intro.md)
+- [自动驾驶测试](/autopilot_test/autopilot_test_intro.md)
+- [自动驾驶仿真测试](/autopilot_test/autopilot_sim_test/sim_test_intro.md)
 
 ## 3. 笔记
 
